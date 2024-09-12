@@ -1,0 +1,75 @@
+const prompt=require("prompt-sync")()
+//const num=prompt('enter a no.')
+//console.log(num)
+// let n1=prompt('enter a no.:')
+// let n2=prompt('enter a no.:')
+// let n3=prompt('enter a no.:')
+
+//if(n%11==0){
+//    console.log('divisible by 11')
+//}
+//else{
+//console.log('not divisible by 11')
+//} 
+
+// if (a>=0){
+//     if (a>0){
+//     console.log(a,' is positive')
+// }
+
+// else{
+//     console.log(a,' is zero')
+// }
+// }
+// else{
+//     console.log(a,' is negative')
+//             } 
+
+
+
+
+// if(n1>n2){
+//     if(n1>n3){
+//         console.log(n1,'is maximum')
+    
+//     }
+
+// else
+// {
+
+//         console.log(n3,'is maximum')
+
+// }
+// }
+// else
+// {
+
+//    if(n2>n3){
+
+//     console.log(n2,'is maximum')
+//    }
+//    else
+//    {
+//     console.log(n3,'is maximum')
+//    }
+
+// }
+
+
+let n=prompt('enter percentage : ')
+if (n>=0 && n<=33){
+    console.log('fail')
+}
+else if(n>33 && n<=50){
+    console.log('grade c')
+}
+else if(n>51 && n<=75){
+    console.log('grade b')
+}
+else if(n>75 && n<=100){
+    console.log('grade a')
+}
+
+
+
+

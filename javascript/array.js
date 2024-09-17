@@ -8,3 +8,8 @@ console.log(b.findIndex((value,index,array)=>
 ))
 b.forEach((value,index,array)=>
 {console.log(value,index,array)})
+let sum=0
+b.forEach((value,index,array)=>{
+sum=sum+value;
+})
+console.log(sum);
